@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@my-workspace/utils-jit": "workspace:*",
+    "@my-workspace/utils-compiled": "workspace:*",
     "next": "16.1.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

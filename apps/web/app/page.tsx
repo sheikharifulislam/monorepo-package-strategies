@@ -16,6 +16,10 @@ export default function Home() {
             <h3>Visit Just-in-Time Package Page</h3>
           </Link>
           |
+          <Link href="/compiled-package">
+            <h3>Visit Compiled Package Page</h3>
+          </Link>
+          |
         </div>
       </main>
     </div>
