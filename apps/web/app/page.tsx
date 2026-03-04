@@ -20,6 +20,10 @@ export default function Home() {
             <h3>Visit Compiled Package Page</h3>
           </Link>
           |
+          <Link href="/publishable-package">
+            <h3>Visit Publishable Package Page</h3>
+          </Link>
+          |
         </div>
       </main>
     </div>

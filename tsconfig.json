@@ -1,0 +1,5 @@
+{
+  "extends": "@my-workspace/typescript-config/react-library.json",
+  "include": ["commitlint.config.ts", "scripts/**/*.ts"],
+  "exclude": ["node_modules"]
+}
