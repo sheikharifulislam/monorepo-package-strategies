@@ -62,6 +62,9 @@ importers:
       '@my-workspace/utils-jit':
         specifier: workspace:*
         version: link:../../packages/utils-jit
+      '@my-workspace/utils-jit-compiled-combine':
+        specifier: workspace:*
+        version: link:../../packages/utils-jit-compiled-combine
       '@my-workspace/utils-publishable':
         specifier: workspace:*
         version: link:../../packages/utils-publishable
@@ -164,6 +167,27 @@ importers:
       '@my-workspace/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config
+      '@types/node':
+        specifier: ^22.15.3
+        version: 22.15.3
+      eslint:
+        specifier: ^9.39.1
+        version: 9.39.1(jiti@2.6.1)
+      typescript:
+        specifier: 5.9.2
+        version: 5.9.2
+
+  packages/utils-jit-compiled-combine:
+    devDependencies:
+      '@my-workspace/lint-config':
+        specifier: workspace:*
+        version: link:../lint-config
+      '@my-workspace/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
+      '@rslib/core':
+        specifier: ^0.19.6
+        version: 0.19.6(typescript@5.9.2)
       '@types/node':
         specifier: ^22.15.3
         version: 22.15.3

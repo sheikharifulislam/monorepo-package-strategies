@@ -24,6 +24,9 @@ export default function Home() {
             <h3>Visit Publishable Package Page</h3>
           </Link>
           |
+          <Link href="/jit-compiled-combine-package">
+            <h3>Visit JIT Compiled Combine Package Page</h3>
+          </Link>
         </div>
       </main>
     </div>
