@@ -7,7 +7,7 @@
     ".": "./dist/index.js"
   },
   "scripts": {
-    "done": "tsx ../../scripts/prepack.ts",
+    "prepack": "tsx ../../scripts/prepack.ts",
     "build": "rslib build",
     "dev": "rslib build --watch",
     "lint": "eslint . --max-warnings 0",
